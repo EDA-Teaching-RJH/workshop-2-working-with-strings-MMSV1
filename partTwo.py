@@ -7,7 +7,10 @@ def main():
     
 
 def pythag(A,B):
-    C = math.hypot(A,B)
+    C1 = A**2
+    C2 = B**2
+    C3 = C1 + C2
+    C = math.sqrt(C3)
     print(C)
 
 main()
