@@ -1,9 +1,13 @@
 import math  
 
 def main():
-#TO DO  
+    A = int(input ("Enter side A: "))  
+    B = int(input ("Enter side B: "))
+    pythag(A,B) 
+    
 
 def pythag(A,B):
-#TO DO  
+    C = math.hypot(A,B)
+    print(C)
 
 main()
